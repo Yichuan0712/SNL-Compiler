@@ -1,0 +1,378 @@
+   Program
+   ©À ProgramHead
+   ©¦ ©À program
+   ©¦ ©¸ p
+   ©À DeclarePart
+   ©¦ ©À TypeDecPart
+   ©¦ ©¦ ©¸ TypeDec
+   ©¦ ©¦    ©À type
+   ©¦ ©¦    ©¸ TypeDecList
+   ©¦ ©¦       ©À sint
+   ©¦ ©¦       ©À =
+   ©¦ ©¦       ©À TypeDef
+   ©¦ ©¦       ©¦ ©¸ BaseType
+   ©¦ ©¦       ©¦    ©¸ integer
+   ©¦ ©¦       ©À ;
+   ©¦ ©¦       ©¸ TypeDecMore
+   ©¦ ©¦          ©¸ TypeDecList
+   ©¦ ©¦             ©À srecord
+   ©¦ ©¦             ©À =
+   ©¦ ©¦             ©À TypeDef
+   ©¦ ©¦             ©¦ ©¸ StructureType
+   ©¦ ©¦             ©¦    ©¸ RecType
+   ©¦ ©¦             ©¦       ©À record
+   ©¦ ©¦             ©¦       ©À FieldDecList
+   ©¦ ©¦             ©¦       ©¦ ©À BaseType
+   ©¦ ©¦             ©¦       ©¦ ©¦ ©¸ integer
+   ©¦ ©¦             ©¦       ©¦ ©À IDList
+   ©¦ ©¦             ©¦       ©¦ ©¦ ©¸ x
+   ©¦ ©¦             ©¦       ©¦ ©À ;
+   ©¦ ©¦             ©¦       ©¦ ©¸ FieldDecMore
+   ©¦ ©¦             ©¦       ©¦    ©¸ FieldDecList
+   ©¦ ©¦             ©¦       ©¦       ©À BaseType
+   ©¦ ©¦             ©¦       ©¦       ©¦ ©¸ char
+   ©¦ ©¦             ©¦       ©¦       ©À IDList
+   ©¦ ©¦             ©¦       ©¦       ©¦ ©À y
+   ©¦ ©¦             ©¦       ©¦       ©¦ ©¸ IDMore
+   ©¦ ©¦             ©¦       ©¦       ©¦    ©À ,
+   ©¦ ©¦             ©¦       ©¦       ©¦    ©¸ IDList
+   ©¦ ©¦             ©¦       ©¦       ©¦       ©¸ z
+   ©¦ ©¦             ©¦       ©¦       ©¸ ;
+   ©¦ ©¦             ©¦       ©¸ end
+   ©¦ ©¦             ©À ;
+   ©¦ ©¦             ©¸ TypeDecMore
+   ©¦ ©¦                ©¸ TypeDecList
+   ©¦ ©¦                   ©À sarray
+   ©¦ ©¦                   ©À =
+   ©¦ ©¦                   ©À TypeDef
+   ©¦ ©¦                   ©¦ ©¸ StructureType
+   ©¦ ©¦                   ©¦    ©¸ ArrayType
+   ©¦ ©¦                   ©¦       ©À array
+   ©¦ ©¦                   ©¦       ©À [
+   ©¦ ©¦                   ©¦       ©À 0
+   ©¦ ©¦                   ©¦       ©À ..
+   ©¦ ©¦                   ©¦       ©À 5
+   ©¦ ©¦                   ©¦       ©À ]
+   ©¦ ©¦                   ©¦       ©À of
+   ©¦ ©¦                   ©¦       ©¸ BaseType
+   ©¦ ©¦                   ©¦          ©¸ integer
+   ©¦ ©¦                   ©¸ ;
+   ©¦ ©À VarDecPart
+   ©¦ ©¦ ©¸ VarDec
+   ©¦ ©¦    ©À var
+   ©¦ ©¦    ©¸ VarDecList
+   ©¦ ©¦       ©À TypeDef
+   ©¦ ©¦       ©¦ ©¸ BaseType
+   ©¦ ©¦       ©¦    ©¸ integer
+   ©¦ ©¦       ©À VarIDList
+   ©¦ ©¦       ©¦ ©À i1
+   ©¦ ©¦       ©¦ ©¸ VarIDMore
+   ©¦ ©¦       ©¦    ©À ,
+   ©¦ ©¦       ©¦    ©¸ VarIDList
+   ©¦ ©¦       ©¦       ©¸ i2
+   ©¦ ©¦       ©À ;
+   ©¦ ©¦       ©¸ VarDecMore
+   ©¦ ©¦          ©¸ VarDecList
+   ©¦ ©¦             ©À TypeDef
+   ©¦ ©¦             ©¦ ©¸ BaseType
+   ©¦ ©¦             ©¦    ©¸ char
+   ©¦ ©¦             ©À VarIDList
+   ©¦ ©¦             ©¦ ©¸ c1
+   ©¦ ©¦             ©À ;
+   ©¦ ©¦             ©¸ VarDecMore
+   ©¦ ©¦                ©¸ VarDecList
+   ©¦ ©¦                   ©À TypeDef
+   ©¦ ©¦                   ©¦ ©¸ sarray
+   ©¦ ©¦                   ©À VarIDList
+   ©¦ ©¦                   ©¦ ©¸ sarr1
+   ©¦ ©¦                   ©À ;
+   ©¦ ©¦                   ©¸ VarDecMore
+   ©¦ ©¦                      ©¸ VarDecList
+   ©¦ ©¦                         ©À TypeDef
+   ©¦ ©¦                         ©¦ ©¸ srecord
+   ©¦ ©¦                         ©À VarIDList
+   ©¦ ©¦                         ©¦ ©¸ sr1
+   ©¦ ©¦                         ©À ;
+   ©¦ ©¦                         ©¸ VarDecMore
+   ©¦ ©¦                            ©¸ VarDecList
+   ©¦ ©¦                               ©À TypeDef
+   ©¦ ©¦                               ©¦ ©¸ BaseType
+   ©¦ ©¦                               ©¦    ©¸ integer
+   ©¦ ©¦                               ©À VarIDList
+   ©¦ ©¦                               ©¦ ©¸ i3
+   ©¦ ©¦                               ©¸ ;
+   ©¦ ©¸ ProcDecPart
+   ©¦    ©¸ ProcDec
+   ©¦       ©À procedure
+   ©¦       ©À q
+   ©¦       ©À (
+   ©¦       ©À ParamList
+   ©¦       ©¦ ©¸ ParamDecList
+   ©¦       ©¦    ©À Param
+   ©¦       ©¦    ©¦ ©À TypeDef
+   ©¦       ©¦    ©¦ ©¦ ©¸ BaseType
+   ©¦       ©¦    ©¦ ©¦    ©¸ integer
+   ©¦       ©¦    ©¦ ©¸ FormList
+   ©¦       ©¦    ©¦    ©¸ i
+   ©¦       ©¦    ©¸ ParamMore
+   ©¦       ©¦       ©À ;
+   ©¦       ©¦       ©¸ ParamDecList
+   ©¦       ©¦          ©¸ Param
+   ©¦       ©¦             ©À TypeDef
+   ©¦       ©¦             ©¦ ©¸ srecord
+   ©¦       ©¦             ©¸ FormList
+   ©¦       ©¦                ©¸ s
+   ©¦       ©À )
+   ©¦       ©À ;
+   ©¦       ©À ProcDecPart
+   ©¦       ©¦ ©¸ DeclarePart
+   ©¦       ©¦    ©¸ VarDecPart
+   ©¦       ©¦       ©¸ VarDec
+   ©¦       ©¦          ©À var
+   ©¦       ©¦          ©¸ VarDecList
+   ©¦       ©¦             ©À TypeDef
+   ©¦       ©¦             ©¦ ©¸ BaseType
+   ©¦       ©¦             ©¦    ©¸ integer
+   ©¦       ©¦             ©À VarIDList
+   ©¦       ©¦             ©¦ ©¸ a
+   ©¦       ©¦             ©À ;
+   ©¦       ©¦             ©¸ VarDecMore
+   ©¦       ©¦                ©¸ VarDecList
+   ©¦       ©¦                   ©À TypeDef
+   ©¦       ©¦                   ©¦ ©¸ BaseType
+   ©¦       ©¦                   ©¦    ©¸ char
+   ©¦       ©¦                   ©À VarIDList
+   ©¦       ©¦                   ©¦ ©¸ c
+   ©¦       ©¦                   ©¸ ;
+   ©¦       ©À ProcBody
+   ©¦       ©¦ ©¸ ProgramBody
+   ©¦       ©¦    ©À begin
+   ©¦       ©¦    ©À StmList
+   ©¦       ©¦    ©¦ ©À Stm
+   ©¦       ©¦    ©¦ ©¦ ©À i
+   ©¦       ©¦    ©¦ ©¦ ©¸ AssCall
+   ©¦       ©¦    ©¦ ©¦    ©¸ AssignmentRest
+   ©¦       ©¦    ©¦ ©¦       ©¸ Exp
+   ©¦       ©¦    ©¦ ©¦          ©¸ Term
+   ©¦       ©¦    ©¦ ©¦             ©¸ Factor
+   ©¦       ©¦    ©¦ ©¦                ©¸ 1
+   ©¦       ©¦    ©¦ ©¸ StmMore
+   ©¦       ©¦    ©¦    ©À ;
+   ©¦       ©¦    ©¦    ©¸ StmList
+   ©¦       ©¦    ©¦       ©À Stm
+   ©¦       ©¦    ©¦       ©¦ ©À a
+   ©¦       ©¦    ©¦       ©¦ ©¸ AssCall
+   ©¦       ©¦    ©¦       ©¦    ©¸ AssignmentRest
+   ©¦       ©¦    ©¦       ©¦       ©¸ Exp
+   ©¦       ©¦    ©¦       ©¦          ©¸ Term
+   ©¦       ©¦    ©¦       ©¦             ©¸ Factor
+   ©¦       ©¦    ©¦       ©¦                ©¸ 1
+   ©¦       ©¦    ©¦       ©¸ StmMore
+   ©¦       ©¦    ©¦          ©À ;
+   ©¦       ©¦    ©¦          ©¸ StmList
+   ©¦       ©¦    ©¦             ©À Stm
+   ©¦       ©¦    ©¦             ©¦ ©¸ OutputStm
+   ©¦       ©¦    ©¦             ©¦    ©À write
+   ©¦       ©¦    ©¦             ©¦    ©À (
+   ©¦       ©¦    ©¦             ©¦    ©À Exp
+   ©¦       ©¦    ©¦             ©¦    ©¦ ©¸ Term
+   ©¦       ©¦    ©¦             ©¦    ©¦    ©¸ Factor
+   ©¦       ©¦    ©¦             ©¦    ©¦       ©¸ Variable
+   ©¦       ©¦    ©¦             ©¦    ©¦          ©¸ a
+   ©¦       ©¦    ©¦             ©¦    ©¸ )
+   ©¦       ©¦    ©¦             ©¸ StmMore
+   ©¦       ©¦    ©¦                ©À ;
+   ©¦       ©¦    ©¦                ©¸ StmList
+   ©¦       ©¦    ©¸ end
+   ©¦       ©¸ ProcDecPart
+   ©¦          ©¸ ProcDec
+   ©¦             ©À procedure
+   ©¦             ©À p
+   ©¦             ©À (
+   ©¦             ©À ParamList
+   ©¦             ©¦ ©¸ ParamDecList
+   ©¦             ©¦    ©¸ Param
+   ©¦             ©¦       ©À TypeDef
+   ©¦             ©¦       ©¦ ©¸ srecord
+   ©¦             ©¦       ©¸ FormList
+   ©¦             ©¦          ©¸ s
+   ©¦             ©À )
+   ©¦             ©À ;
+   ©¦             ©À ProcDecPart
+   ©¦             ©¦ ©¸ DeclarePart
+   ©¦             ©¦    ©¸ VarDecPart
+   ©¦             ©¦       ©¸ VarDec
+   ©¦             ©¦          ©À var
+   ©¦             ©¦          ©¸ VarDecList
+   ©¦             ©¦             ©À TypeDef
+   ©¦             ©¦             ©¦ ©¸ BaseType
+   ©¦             ©¦             ©¦    ©¸ integer
+   ©¦             ©¦             ©À VarIDList
+   ©¦             ©¦             ©¦ ©¸ a
+   ©¦             ©¦             ©¸ ;
+   ©¦             ©À ProcBody
+   ©¦             ©¦ ©¸ ProgramBody
+   ©¦             ©¦    ©À begin
+   ©¦             ©¦    ©À StmList
+   ©¦             ©¦    ©¦ ©À Stm
+   ©¦             ©¦    ©¦ ©¦ ©À a
+   ©¦             ©¦    ©¦ ©¦ ©¸ AssCall
+   ©¦             ©¦    ©¦ ©¦    ©¸ AssignmentRest
+   ©¦             ©¦    ©¦ ©¦       ©¸ Exp
+   ©¦             ©¦    ©¦ ©¦          ©¸ Term
+   ©¦             ©¦    ©¦ ©¦             ©¸ Factor
+   ©¦             ©¦    ©¦ ©¦                ©¸ 1
+   ©¦             ©¦    ©¦ ©¸ StmMore
+   ©¦             ©¦    ©¦    ©À ;
+   ©¦             ©¦    ©¦    ©¸ StmList
+   ©¦             ©¦    ©¸ end
+   ©¦             ©¸ ProcDecPart
+   ©¦                ©¸ ProcDec
+   ©¦                   ©À procedure
+   ©¦                   ©À r
+   ©¦                   ©À (
+   ©¦                   ©À )
+   ©¦                   ©À ;
+   ©¦                   ©À ProcDecPart
+   ©¦                   ©¦ ©¸ DeclarePart
+   ©¦                   ©¦    ©¸ VarDecPart
+   ©¦                   ©¦       ©¸ VarDec
+   ©¦                   ©¦          ©À var
+   ©¦                   ©¦          ©¸ VarDecList
+   ©¦                   ©¦             ©À TypeDef
+   ©¦                   ©¦             ©¦ ©¸ BaseType
+   ©¦                   ©¦             ©¦    ©¸ integer
+   ©¦                   ©¦             ©À VarIDList
+   ©¦                   ©¦             ©¦ ©¸ a
+   ©¦                   ©¦             ©¸ ;
+   ©¦                   ©¸ ProcBody
+   ©¦                      ©¸ ProgramBody
+   ©¦                         ©À begin
+   ©¦                         ©À StmList
+   ©¦                         ©¦ ©À Stm
+   ©¦                         ©¦ ©¦ ©À a
+   ©¦                         ©¦ ©¦ ©¸ AssCall
+   ©¦                         ©¦ ©¦    ©¸ AssignmentRest
+   ©¦                         ©¦ ©¦       ©¸ Exp
+   ©¦                         ©¦ ©¦          ©¸ Term
+   ©¦                         ©¦ ©¦             ©¸ Factor
+   ©¦                         ©¦ ©¦                ©¸ 1
+   ©¦                         ©¦ ©¸ StmMore
+   ©¦                         ©¦    ©À ;
+   ©¦                         ©¦    ©¸ StmList
+   ©¦                         ©¦       ©À Stm
+   ©¦                         ©¦       ©¦ ©À a
+   ©¦                         ©¦       ©¦ ©¸ AssCall
+   ©¦                         ©¦       ©¦    ©¸ AssignmentRest
+   ©¦                         ©¦       ©¦       ©¸ Exp
+   ©¦                         ©¦       ©¦          ©¸ Term
+   ©¦                         ©¦       ©¦             ©¸ Factor
+   ©¦                         ©¦       ©¦                ©¸ 10
+   ©¦                         ©¦       ©¸ StmMore
+   ©¦                         ©¦          ©À ;
+   ©¦                         ©¦          ©¸ StmList
+   ©¦                         ©¸ end
+   ©¸ ProgramBody
+      ©À begin
+      ©À StmList
+      ©¦ ©À Stm
+      ©¦ ©¦ ©¸ InputStm
+      ©¦ ©¦    ©À read
+      ©¦ ©¦    ©À (
+      ©¦ ©¦    ©À i1
+      ©¦ ©¦    ©¸ )
+      ©¦ ©¸ StmMore
+      ©¦    ©À ;
+      ©¦    ©¸ StmList
+      ©¦       ©À Stm
+      ©¦       ©¦ ©À r
+      ©¦       ©¦ ©¸ AssCall
+      ©¦       ©¦    ©¸ CallStmRest
+      ©¦       ©¦       ©À (
+      ©¦       ©¦       ©¸ )
+      ©¦       ©¸ StmMore
+      ©¦          ©À ;
+      ©¦          ©¸ StmList
+      ©¦             ©À Stm
+      ©¦             ©¦ ©À q
+      ©¦             ©¦ ©¸ AssCall
+      ©¦             ©¦    ©¸ CallStmRest
+      ©¦             ©¦       ©À (
+      ©¦             ©¦       ©À ActParamList
+      ©¦             ©¦       ©¦ ©À Exp
+      ©¦             ©¦       ©¦ ©¦ ©¸ Term
+      ©¦             ©¦       ©¦ ©¦    ©¸ Factor
+      ©¦             ©¦       ©¦ ©¦       ©¸ 1
+      ©¦             ©¦       ©¦ ©¸ ActParamMore
+      ©¦             ©¦       ©¦    ©À ,
+      ©¦             ©¦       ©¦    ©¸ ActParamList
+      ©¦             ©¦       ©¦       ©¸ Exp
+      ©¦             ©¦       ©¦          ©¸ Term
+      ©¦             ©¦       ©¦             ©¸ Factor
+      ©¦             ©¦       ©¦                ©¸ Variable
+      ©¦             ©¦       ©¦                   ©¸ sr1
+      ©¦             ©¦       ©¸ )
+      ©¦             ©¸ StmMore
+      ©¦                ©À ;
+      ©¦                ©¸ StmList
+      ©¦                   ©À Stm
+      ©¦                   ©¦ ©¸ ConditionalStm
+      ©¦                   ©¦    ©À if
+      ©¦                   ©¦    ©À Exp
+      ©¦                   ©¦    ©¦ ©¸ Term
+      ©¦                   ©¦    ©¦    ©¸ Factor
+      ©¦                   ©¦    ©¦       ©¸ Variable
+      ©¦                   ©¦    ©¦          ©¸ i1
+      ©¦                   ©¦    ©À <
+      ©¦                   ©¦    ©À Exp
+      ©¦                   ©¦    ©¦ ©¸ Term
+      ©¦                   ©¦    ©¦    ©¸ Factor
+      ©¦                   ©¦    ©¦       ©¸ 10
+      ©¦                   ©¦    ©À then
+      ©¦                   ©¦    ©À StmList
+      ©¦                   ©¦    ©¦ ©À Stm
+      ©¦                   ©¦    ©¦ ©¦ ©À i1
+      ©¦                   ©¦    ©¦ ©¦ ©¸ AssCall
+      ©¦                   ©¦    ©¦ ©¦    ©¸ AssignmentRest
+      ©¦                   ©¦    ©¦ ©¦       ©¸ Exp
+      ©¦                   ©¦    ©¦ ©¦          ©¸ Term
+      ©¦                   ©¦    ©¦ ©¦             ©¸ Factor
+      ©¦                   ©¦    ©¦ ©¦                ©¸ Variable
+      ©¦                   ©¦    ©¦ ©¦                   ©¸ i1
+      ©¦                   ©¦    ©¦ ©¸ StmMore
+      ©¦                   ©¦    ©¦    ©À ;
+      ©¦                   ©¦    ©¦    ©¸ StmList
+      ©¦                   ©¦    ©À else
+      ©¦                   ©¦    ©À StmList
+      ©¦                   ©¦    ©¦ ©À Stm
+      ©¦                   ©¦    ©¦ ©¦ ©À i1
+      ©¦                   ©¦    ©¦ ©¦ ©¸ AssCall
+      ©¦                   ©¦    ©¦ ©¦    ©¸ AssignmentRest
+      ©¦                   ©¦    ©¦ ©¦       ©¸ Exp
+      ©¦                   ©¦    ©¦ ©¦          ©¸ Term
+      ©¦                   ©¦    ©¦ ©¦             ©¸ Factor
+      ©¦                   ©¦    ©¦ ©¦                ©¸ Variable
+      ©¦                   ©¦    ©¦ ©¦                   ©¸ i1
+      ©¦                   ©¦    ©¦ ©¸ StmMore
+      ©¦                   ©¦    ©¦    ©À ;
+      ©¦                   ©¦    ©¦    ©¸ StmList
+      ©¦                   ©¦    ©¸ fi
+      ©¦                   ©¸ StmMore
+      ©¦                      ©À ;
+      ©¦                      ©¸ StmList
+      ©¦                         ©À Stm
+      ©¦                         ©¦ ©À p
+      ©¦                         ©¦ ©¸ AssCall
+      ©¦                         ©¦    ©¸ CallStmRest
+      ©¦                         ©¦       ©À (
+      ©¦                         ©¦       ©À ActParamList
+      ©¦                         ©¦       ©¦ ©¸ Exp
+      ©¦                         ©¦       ©¦    ©¸ Term
+      ©¦                         ©¦       ©¦       ©¸ Factor
+      ©¦                         ©¦       ©¦          ©¸ Variable
+      ©¦                         ©¦       ©¦             ©¸ sr1
+      ©¦                         ©¦       ©¸ )
+      ©¦                         ©¸ StmMore
+      ©¦                            ©À ;
+      ©¦                            ©¸ StmList
+      ©¸ end

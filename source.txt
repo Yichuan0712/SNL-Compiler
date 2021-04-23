@@ -1,0 +1,69 @@
+program p
+
+type	
+	sint = integer; 
+
+     	srecord = record
+        		integer  x;
+        		char     y,z;
+             	  end;
+
+	sarray = array [0..5] of integer;
+
+var 
+	integer i1,i2;
+	char c1;
+	sarray sarr1;
+	srecord sr1;
+	integer i3;
+
+
+procedure	q(integer i; srecord s);
+var 
+	integer a; 
+	char c;
+begin 
+	i := 1;
+ 	a := 1; 
+ 	write(a); 
+end 
+
+
+procedure 	p(srecord s);
+var 
+	integer a; 
+	{srecord s;}
+begin 
+ 	a:=1;
+end 
+
+
+procedure	r();
+var 
+	integer a; 
+begin 
+	a:=1;
+	a:=10; 
+end 
+
+
+begin 
+	{sarr1[6] := 1;}
+
+ 	read(i1); 
+	r();
+	q(1, sr1);
+
+   	{while i1<10 do
+     	i1:=1;
+ 	endwh;}
+
+	if i1<10 
+	then 
+		i1:=i1+10;
+	else 
+		i1:=i1-10;
+	fi; 
+
+ 	p(sr1); 
+end.

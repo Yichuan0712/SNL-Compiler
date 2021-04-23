@@ -1,0 +1,22 @@
+sint	typeKind	integer
+srecord	typeKind	record
+sarray	typeKind	array
+i1	varKind 	integer
+i2	varKind 	integer
+c1	varKind 	char
+sarr1	varKind 	sarray
+sr1	varKind 	srecord
+i3	varKind 	integer
+q	procKind	procedure
+					i	varKind 	integer
+					s	varKind 	srecord
+					a	varKind 	integer
+					c	varKind 	char
+
+p	procKind	procedure
+					s	varKind 	srecord
+					a	varKind 	integer
+
+r	procKind	procedure
+					a	varKind 	integer
+
