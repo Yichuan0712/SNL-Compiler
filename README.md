@@ -1,4 +1,4 @@
-# SNL-Compiler
+# SNL-Compiler by Yichuan
 
 包含以下四个模块
 
