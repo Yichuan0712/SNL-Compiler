@@ -1,7 +1,6 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 
 /****************************************************************/
-//	编译原理课程设计
 //	
 //	https://github.com/YiChuan0712/SNL-Compiler
 //
