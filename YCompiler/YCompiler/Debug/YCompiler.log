@@ -1,6 +1,0 @@
-﻿  YCompiler.cpp
-c:\users\yichuan\source\repos\ycompiler\ycompiler\ycompiler.cpp(238): warning C4101: “temp”: 未引用的局部变量
-c:\users\yichuan\source\repos\ycompiler\ycompiler\ycompiler.cpp(708): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\yichuan\source\repos\ycompiler\ycompiler\ycompiler.cpp(453): warning C4715: “getReserved”: 不是所有的控件路径都返回值
-c:\users\yichuan\source\repos\ycompiler\ycompiler\ycompiler.cpp(625): warning C4715: “getString”: 不是所有的控件路径都返回值
-  YCompiler.vcxproj -> C:\Users\Yichuan\source\repos\YCompiler\Debug\YCompiler.exe
